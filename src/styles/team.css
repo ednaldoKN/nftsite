@@ -1,0 +1,30 @@
+#team{
+	background: #203c56;
+}
+.team-container{
+	padding: 10px 40px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.team-container .card{
+	width: 30%;
+	margin-bottom: 15px;
+	background: #0d2b45;
+	display: flex;
+	font-family: myfont;
+	font-size: 1rem;
+}
+
+
+
+@media(max-width: 600px){
+	.team-container{
+		
+	}
+
+	.card-body h2{
+		font-size: 15px;
+	}
+}

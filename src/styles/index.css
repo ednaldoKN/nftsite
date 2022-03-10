@@ -1,0 +1,83 @@
+@font-face{
+	font-family: myfont;
+	src: url('../fonts/DevinneSwash.ttf');
+}
+
+@font-face{
+	font-family: myfont2;
+	src: url('../fonts/DevinneSwashShadow.ttf');
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffaa5e;
+}
+
+body,html{
+	overflow-x: hidden;
+	background: #0d2b45;
+	font-size: 15px;
+}
+
+
+main{
+	font-family: myfont;
+}
+
+
+
+
+
+main section{
+	background: transparent;
+	padding: 10px 30px;
+}
+ 
+.style-mint{
+	color:#ffaa5e;
+	font-family: myfont2;
+
+	font-weight: bold;
+	}
+
+
+footer{
+	background: #203c56;
+	margin-top: 50px;
+	padding: 50px 0;
+	font-family: myfont;
+}
+
+footer > div{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+footer> div h2{
+	margin-right: 20px;
+}
+
+footer > p{
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.social-icon{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.social-icon>div{
+	background: #ffaa5e;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+}

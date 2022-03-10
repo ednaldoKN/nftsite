@@ -1,0 +1,13 @@
+.accordion-item .accordion-button{
+	color: #ffaa5e;
+	background:   #203c56 !important;
+}
+
+.accordion-item .accordion-button:hover{
+	background:#d08159 ;
+}
+
+.accordion-body{
+	background:#0d2b45;
+	color: #ffaa5e;
+}
